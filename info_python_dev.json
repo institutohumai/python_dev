@@ -1,0 +1,80 @@
+{
+    "1_Control_de_versiones": {
+        "name": "1_Control_de_versiones",
+        "video_urls": [],
+        "long_description": {},
+        "ipynbs": {
+            "git": "https://colab.research.google.com/drive/1XSavFoPB_P4gcSxDNXjGR1WKmJnDmgca",
+            "git_ejercicios": "https://colab.research.google.com/drive/1kbIBYYzG17tpIZIepSXeUpYv5tTzYIhJ"
+        },
+        "materials": {
+            "guiagit": "16H0qrxqC5MWv28QQa66Tz7Rj2Hwk8Ea0"
+        }
+    },
+    "2_Entornos_virtuales": {
+        "name": "2_Entornos_virtuales",
+        "video_urls": [],
+        "long_description": {},
+        "ipynbs": {
+            "ejercicios": "https://colab.research.google.com/drive/1yCupCx4hNIo-CV1n5nNUOqPbOqMCV-AB",
+            "clase_02_venv": "https://colab.research.google.com/drive/1SK1X74EJbFOIK-Ew5_N43IbSCkxyUl9b",
+            "clase_02_poetry": "https://colab.research.google.com/drive/18CA2tCIPWO8BRjnDXGLLtyLdCdrJSfxh",
+            "clase_02_typing": "https://colab.research.google.com/drive/12Ko_XYrk4vA8HeMUau_s9K28f7tQNrSR"
+        },
+        "materials": {}
+    },
+    "3_Herramientas_del_proceso_de_desarrollo_I": {
+        "name": "3_Herramientas_del_proceso_de_desarrollo_I",
+        "video_urls": [],
+        "long_description": {},
+        "ipynbs": {
+            "Ejercicios": "https://colab.research.google.com/drive/1ZkvaSEkl4EE-PG16bkS4A88FhYj-4i4q",
+            "ejercicio_combinado": "https://colab.research.google.com/drive/1bXCEES9RNNLJxefP5KQ7pPyqmA5dXsLT",
+            "Solucion": "https://colab.research.google.com/drive/1way8SEladKkmL9iCu5hp4TaP4MNlHOtn",
+            "clase_03_setuptools": "https://colab.research.google.com/drive/1OzxH1loYroM9Ni3EQnqBJ9D5y4wyAXSP",
+            "clase_03_cookiecutter": "https://colab.research.google.com/drive/1_URUwDysj6r6_KHdts2OoIsexw1tQ_1c",
+            "clase_03_pylint": "https://colab.research.google.com/drive/11gjjw-4q8XOin9vuvx5epCxjYB0VOapq",
+            "clase_03_documentation": "https://colab.research.google.com/drive/1ijaX3d8_Xkj4WkEKiwpK6d-S7Zwh04v4"
+        },
+        "materials": {}
+    },
+    "4_Herramientas_del_proceso_de_desarrollo_II": {
+        "name": "4_Herramientas_del_proceso_de_desarrollo_II",
+        "video_urls": [],
+        "long_description": {},
+        "ipynbs": {
+            "Introducci\u00f3n_a_Logging": "https://colab.research.google.com/drive/10m4PzVHsMHW7HP9dhNyG4Uhc_Xnz4PWm"
+        },
+        "materials": {}
+    },
+    "5_Docker": {
+        "name": "5_Docker",
+        "video_urls": [],
+        "long_description": {},
+        "ipynbs": {
+            "ejercicios": "https://colab.research.google.com/drive/1fp8wHV60USAs5UqBEhUlHwDGU4aMYVY7",
+            "docker-comandos": "https://colab.research.google.com/drive/1LyGfJBny-ktH3s5c7wrzqgRJbyVU_EeX",
+            "docker-conceptos": "https://colab.research.google.com/drive/1r4iNUYwcSuhg7dk_5cCfBvDm9Fl6hiQW",
+            "storage-compose": "https://colab.research.google.com/drive/1JtDccDrctMjbum5kZC6oUDiqwnubsGcw"
+        },
+        "materials": {}
+    },
+    "material_extra": {
+        "name": "material_extra",
+        "video_urls": [],
+        "long_description": {},
+        "ipynbs": {
+            "pantallazo_calidad_de_codigo": "https://colab.research.google.com/drive/1q47V13xamX-0P4eK8_nXtpB3iwIBDVRr",
+            "bash_cli_vscode": "https://colab.research.google.com/drive/1pZWCImkcRx0U2eNXEs6nKfGQPexdYk0i",
+            "ejercicios": "https://colab.research.google.com/drive/1RDIEcc3Hyvq4P8KnsAThg-VV6HpC7nb7",
+            "ejercicios_solucion": "https://colab.research.google.com/drive/1sVBaC3U-mHjk_awEy8XIJYUm7mOrQUVB",
+            "humai_calidad_de_codigo": "https://colab.research.google.com/drive/1ZbuZBQGB1JXXTl_EsYjmubMJ9x2eYpOo",
+            "introduccion_a_logging_v2": "https://colab.research.google.com/drive/19kWNJek1Xs3rTGnLH_v2LcI2ICDtMUqn",
+            "practica_buenas_practicas": "https://colab.research.google.com/drive/1ZkekkmgPwOvad72jHjgHCh-RKg8Iu368",
+            "practica_en_clases_buenas_practicas": "https://colab.research.google.com/drive/1-kaTOkmFR2bS_iDYiT771-G4_d1_HMVo",
+            "[resuelto]practica_buenas_practicas": "https://colab.research.google.com/drive/1reWavRGPDRUxTexHaeOv-Vp5bMZbBX_j",
+            "[resuelto]practica_en_clases_buenas_practicas": "https://colab.research.google.com/drive/1YEghVlAgHfgbd7R1Vovoo11e5TJLzNWn"
+        },
+        "materials": {}
+    }
+}
