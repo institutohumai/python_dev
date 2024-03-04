@@ -1,7 +1,10 @@
 {
     "1_Control_de_versiones": {
-        "name": "1_Control_de_versiones",
-        "video_urls": [],
+        "name": "Control de versiones",
+        "video_urls": [
+            "https://youtu.be/mQMgYx6W9aI", 
+            "https://www.youtube.com/watch?v=rxsVHfMsc24"
+        ],
         "long_description": {},
         "ipynbs": {
             "git": "https://colab.research.google.com/drive/1XSavFoPB_P4gcSxDNXjGR1WKmJnDmgca",
@@ -12,8 +15,11 @@
         }
     },
     "2_Entornos_virtuales": {
-        "name": "2_Entornos_virtuales",
-        "video_urls": [],
+        "name": "Entornos virtuales",
+        "video_urls": [
+            "https://www.youtube.com/watch?v=_tYE_N1drGw&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=4", 
+            "https://www.youtube.com/watch?v=Yj_sDsZs4R4&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=5"
+        ],
         "long_description": {},
         "ipynbs": {
             "ejercicios": "https://colab.research.google.com/drive/1yCupCx4hNIo-CV1n5nNUOqPbOqMCV-AB",
@@ -24,8 +30,13 @@
         "materials": {}
     },
     "3_Herramientas_del_proceso_de_desarrollo_I": {
-        "name": "3_Herramientas_del_proceso_de_desarrollo_I",
-        "video_urls": [],
+        "name": "Herramientas del proceso de desarrollo I",
+        "video_urls": [
+            "https://www.youtube.com/watch?v=QT7ZV2rz5NU&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=7", 
+            "https://www.youtube.com/watch?v=jDEsq9mndxM&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=8", 
+            "https://www.youtube.com/watch?v=ipxiESgGgz0&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=9",
+            "https://www.youtube.com/watch?v=Zu_E4pjSPJY&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=6"
+        ],
         "long_description": {},
         "ipynbs": {
             "Ejercicios": "https://colab.research.google.com/drive/1ZkvaSEkl4EE-PG16bkS4A88FhYj-4i4q",
@@ -39,8 +50,11 @@
         "materials": {}
     },
     "4_Herramientas_del_proceso_de_desarrollo_II": {
-        "name": "4_Herramientas_del_proceso_de_desarrollo_II",
-        "video_urls": [],
+        "name": "Herramientas del proceso de desarrollo II",
+        "video_urls": [
+            "https://youtu.be/ICFHgHbIHEQ",
+            "https://youtu.be/-_pk8ix87uQ"
+        ],
         "long_description": {},
         "ipynbs": {
             "Introducci\u00f3n_a_Logging": "https://colab.research.google.com/drive/10m4PzVHsMHW7HP9dhNyG4Uhc_Xnz4PWm"
@@ -48,8 +62,16 @@
         "materials": {}
     },
     "5_Docker": {
-        "name": "5_Docker",
-        "video_urls": [],
+        "name": "Docker",
+        "video_urls": [
+            "https://youtu.be/uLtjdprD2jo",
+            "https://youtu.be/emKNsuj1ZpQ",
+            "https://youtu.be/yVIwPqTBgUw",
+            "https://youtu.be/YTjU1HfYd1g",
+            "https://youtu.be/rRu1C6OuzfI",
+            "https://youtu.be/N-IhU5Q3nW0",
+            "https://youtu.be/gqinaCzQ0Qc"
+        ],
         "long_description": {},
         "ipynbs": {
             "ejercicios": "https://colab.research.google.com/drive/1fp8wHV60USAs5UqBEhUlHwDGU4aMYVY7",
@@ -60,7 +82,7 @@
         "materials": {}
     },
     "material_extra": {
-        "name": "material_extra",
+        "name": "Material extra",
         "video_urls": [],
         "long_description": {},
         "ipynbs": {
