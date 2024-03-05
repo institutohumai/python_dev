@@ -1,1 +1,74 @@
-{"Question":{"0":"\u00bfPara qu\u00e9 sirve el m\u00f3dulo `logging` en Python?","1":"\u00bfCu\u00e1l es la diferencia principal entre usar `print` y `logging` para el seguimiento de eventos?","2":"\u00bfQu\u00e9 nivel de severidad en `logging` se utiliza para indicaciones de que el software no est\u00e1 ejecut\u00e1ndose como deber\u00eda?","3":"\u00bfQu\u00e9 sucede si se llama a la funci\u00f3n `logging.error` antes de configurar el logging con `logging.basicConfig`?","4":"\u00bfQu\u00e9 comando m\u00e1gico de Jupyter Notebook indica que una celda debe ser ejecutada independientemente en una nueva sesi\u00f3n de Python?","5":"\u00bfQu\u00e9 nivel de severidad de logging usamos para detalles y debugging?","6":"\u00bfCu\u00e1l es el formato correcto del comando para agregar una ejecuci\u00f3n peri\u00f3dica en `crontab` que ejecute un script Python una vez por minuto durante los d\u00edas de semana?","7":"\u00bfQu\u00e9 par\u00e1metro se debe agregar a `logging.basicConfig` para que se registren mensajes desde el nivel `INFO`?","8":"Al configurar el formato del mensaje en `logging`, \u00bfqu\u00e9 'placeholder' representa el nivel de severidad?","9":"En el contexto de `logging`, \u00bfqu\u00e9 significa que un mensaje contenga \"data variable\"?"},"Answer 1":{"0":"Para generar interfaces gr\u00e1ficas de usuario.","1":"`print` es m\u00e1s r\u00e1pido que `logging`.","2":"DEBUG","3":"Se produce un error en el script.","4":"`%run`","5":"DEBUG","6":"`* * * * 1-5 script.py`","7":"`file=logging.INFO`","8":"`%(message)s`","9":"El contenido del mensaje var\u00eda seg\u00fan el nivel de severidad."},"Answer 2":{"0":"Para la programaci\u00f3n de videojuegos.","1":"`logging` permite guardar mensajes en un archivo, mientras que `print` muestra los mensajes en pantalla.","2":"ERROR","3":"La llamada a `logging.basicConfig` que se realice despu\u00e9s no surtir\u00e1 efecto.","4":"`%%python`","5":"INFO","6":"`1-5 * * * * python script.py`","7":"`basicConfig=logging.INFO`","8":"`%(asctime)s`","9":"El mensaje se altera autom\u00e1ticamente cada vez que se registra."},"Answer 3":{"0":"Para implementar un sistema de registros o logs en aplicaciones.","1":"Solo `print` permite diferenciar niveles de severidad.","2":"INFO","3":"Los niveles de severidad se configuran autom\u00e1ticamente a CRITICAL.","4":"`%python`","5":"WARNING","6":"`* * * * 1-5 path\/a\/nuestro\/binario\/de\/python path\/a\/nuestro\/script.py`","7":"`setLevel=logging.INFO`","8":"`%(levelname)s`","9":"El mensaje puede incluir datos que cambian cada vez que se genera el evento."},"Answer 4":{"0":"Para mejorar el rendimiento del c\u00f3digo.","1":"`logging` es una herramienta de debugging mientras que `print` es para logging.","2":"WARNING","3":"No tiene ning\u00fan efecto sobre el logging.","4":"`%%bash`","5":"CRITICAL","6":"`1-5 * * * * path\/a\/nuestro\/binario\/de\/python path\/a\/nuestro\/script.py`","7":"`level=logging.INFO`","8":"`%(filename)s`","9":"El mensaje solo se guarda si cambia con respecto al evento anterior."},"Correct answer(s)":{"0":"3","1":"2","2":"2","3":"2","4":"2","5":"1","6":"3","7":"4","8":"3","9":"3"}}
+{
+    "Question": {
+        "0": "\u00bfPara qu\u00e9 sirve el m\u00f3dulo `logging` en Python?",
+        "1": "\u00bfCu\u00e1l es la diferencia principal entre usar `print` y `logging` para el seguimiento de eventos?",
+        "2": "\u00bfQu\u00e9 nivel de severidad en `logging` se utiliza para indicaciones de que el software no est\u00e1 ejecut\u00e1ndose como deber\u00eda?",
+        "3": "\u00bfQu\u00e9 sucede si se llama a la funci\u00f3n `logging.error` antes de configurar el logging con `logging.basicConfig`?",
+        "4": "\u00bfQu\u00e9 comando m\u00e1gico de Jupyter Notebook indica que una celda debe ser ejecutada independientemente en una nueva sesi\u00f3n de Python?",
+        "5": "\u00bfQu\u00e9 nivel de severidad de logging usamos para detalles y debugging?",
+        "6": "\u00bfCu\u00e1l es el formato correcto del comando para agregar una ejecuci\u00f3n peri\u00f3dica en `crontab` que ejecute un script Python una vez por minuto durante los d\u00edas de semana?",
+        "7": "\u00bfQu\u00e9 par\u00e1metro se debe agregar a `logging.basicConfig` para que se registren mensajes desde el nivel `INFO`?",
+        "8": "Al configurar el formato del mensaje en `logging`, \u00bfqu\u00e9 'placeholder' representa el nivel de severidad?",
+        "9": "En el contexto de `logging`, \u00bfqu\u00e9 significa que un mensaje contenga \"data variable\"?"
+    },
+    "Answer 1": {
+        "0": "Para generar interfaces gr\u00e1ficas de usuario.",
+        "1": "`print` es m\u00e1s r\u00e1pido que `logging`.",
+        "2": "DEBUG",
+        "3": "Se produce un error en el script.",
+        "4": "`%run`",
+        "5": "DEBUG",
+        "6": "`* * * * 1-5 script.py`",
+        "7": "`file=logging.INFO`",
+        "8": "`%(message)s`",
+        "9": "El contenido del mensaje var\u00eda seg\u00fan el nivel de severidad."
+    },
+    "Answer 2": {
+        "0": "Para la programaci\u00f3n de videojuegos.",
+        "1": "`logging` permite guardar mensajes en un archivo, mientras que `print` muestra los mensajes en pantalla.",
+        "2": "ERROR",
+        "3": "La llamada a `logging.basicConfig` que se realice despu\u00e9s no surtir\u00e1 efecto.",
+        "4": "`%%python`",
+        "5": "INFO",
+        "6": "`1-5 * * * * python script.py`",
+        "7": "`basicConfig=logging.INFO`",
+        "8": "`%(asctime)s`",
+        "9": "El mensaje se altera autom\u00e1ticamente cada vez que se registra."
+    },
+    "Answer 3": {
+        "0": "Para implementar un sistema de registros o logs en aplicaciones.",
+        "1": "Solo `print` permite diferenciar niveles de severidad.",
+        "2": "INFO",
+        "3": "Los niveles de severidad se configuran autom\u00e1ticamente a CRITICAL.",
+        "4": "`%python`",
+        "5": "WARNING",
+        "6": "`* * * * 1-5 path\/a\/nuestro\/binario\/de\/python path\/a\/nuestro\/script.py`",
+        "7": "`setLevel=logging.INFO`",
+        "8": "`%(levelname)s`",
+        "9": "El mensaje puede incluir datos que cambian cada vez que se genera el evento."
+    },
+    "Answer 4": {
+        "0": "Para mejorar el rendimiento del c\u00f3digo.",
+        "1": "`logging` es una herramienta de debugging mientras que `print` es para logging.",
+        "2": "WARNING",
+        "3": "No tiene ning\u00fan efecto sobre el logging.",
+        "4": "`%%bash`",
+        "5": "CRITICAL",
+        "6": "`1-5 * * * * path\/a\/nuestro\/binario\/de\/python path\/a\/nuestro\/script.py`",
+        "7": "`level=logging.INFO`",
+        "8": "`%(filename)s`",
+        "9": "El mensaje solo se guarda si cambia con respecto al evento anterior."
+    },
+    "Correct answer(s)": {
+        "0": "3",
+        "1": "2",
+        "2": "2",
+        "3": "2",
+        "4": "2",
+        "5": "1",
+        "6": "3",
+        "7": "4",
+        "8": "3",
+        "9": "3"
+    }
+}

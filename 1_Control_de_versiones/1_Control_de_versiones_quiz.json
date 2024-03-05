@@ -1,1 +1,74 @@
-{"Question":{"0":"\u00bfCu\u00e1l es el comando que se utiliza para iniciar un nuevo repositorio de Git en una carpeta local?","1":"\u00bfQu\u00e9 significa la zona de \"staging\" en Git?","2":"\u00bfCon qu\u00e9 comando se configura el nombre de usuario y correo electr\u00f3nico que ser\u00e1n asociados a los commits en Git?","3":"\u00bfQu\u00e9 comando de Git muestra la lista de commits realizados junto con su mensaje y hash correspondiente?","4":"\u00bfQu\u00e9 comando de Git te permite cambiar entre ramas o restaurar versiones de archivos del directorio de trabajo?","5":"Al trabajar con Git, \u00bfQu\u00e9 comando se usa para deshacer los cambios que se han enviado al \u00e1rea de staging, pero conservar los cambios en el directorio de trabajo?","6":"\u00bfC\u00f3mo se denomina la operaci\u00f3n en Git que crea un nuevo commit que revierte los cambios de un commit anterior?","7":"\u00bfQu\u00e9 representa un \"Pull Request\" en Github?","8":"En el modelo de desarrollo \"Trunk-Based Development\", \u00bfcu\u00e1l es la rama que siempre deber\u00eda estar lista para desplegar?","9":"\u00bfQu\u00e9 ocurre durante un merge \"fast-forward\" en Git?"},"Answer 1":{"0":"git clone","1":"El \u00e1rea donde se alojan los repositorios remotos.","2":"git config","3":"git status","4":"git checkout","5":"git revert","6":"git revert","7":"Una solicitud para descargar los cambios de un repositorio remoto.","8":"Feature branch","9":"Se crea un nuevo commit que une dos ramas."},"Answer 2":{"0":"git init","1":"El \u00e1rea donde se preparan los cambios antes de confirmarlos al historial de versiones.","2":"git user","3":"git show","4":"git switch","5":"git reset --hard","6":"git undo","7":"Una petici\u00f3n para que el mantenedor haga pull de tus cambios a su rama local.","8":"Develop branch","9":"Se reescribe la historia para simular una \u00fanica l\u00ednea de desarrollo."},"Answer 3":{"0":"git start","1":"El directorio donde se guardan los archivos no rastreados.","2":"git init user","3":"git log","4":"git swap","5":"git commit --undo","6":"git rollback","7":"Una solicitud para integrar cambios de una rama a otra en el repositorio remoto.","8":"Main branch","9":"Se generan conflictos que deben ser resueltos manualmente."},"Answer 4":{"0":"git create","1":"La carpeta oculta .git.","2":"git set user","3":"git list","4":"git change","5":"git reset","6":"git back","7":"Una petici\u00f3n para clonar un repositorio de Github.","8":"Release branch","9":"Una rama se actualiza para apuntar al \u00faltimo commit de la otra rama sin necesidad de un commit de merge."},"Correct answer(s)":{"0":"2","1":"2","2":"1","3":"3","4":"1","5":"4","6":"1","7":"3","8":"3","9":"4"}}
+{
+    "Question": {
+        "0": "\u00bfCu\u00e1l es el comando que se utiliza para iniciar un nuevo repositorio de Git en una carpeta local?",
+        "1": "\u00bfQu\u00e9 significa la zona de \"staging\" en Git?",
+        "2": "\u00bfCon qu\u00e9 comando se configura el nombre de usuario y correo electr\u00f3nico que ser\u00e1n asociados a los commits en Git?",
+        "3": "\u00bfQu\u00e9 comando de Git muestra la lista de commits realizados junto con su mensaje y hash correspondiente?",
+        "4": "\u00bfQu\u00e9 comando de Git te permite cambiar entre ramas o restaurar versiones de archivos del directorio de trabajo?",
+        "5": "Al trabajar con Git, \u00bfQu\u00e9 comando se usa para deshacer los cambios que se han enviado al \u00e1rea de staging, pero conservar los cambios en el directorio de trabajo?",
+        "6": "\u00bfC\u00f3mo se denomina la operaci\u00f3n en Git que crea un nuevo commit que revierte los cambios de un commit anterior?",
+        "7": "\u00bfQu\u00e9 representa un \"Pull Request\" en Github?",
+        "8": "En el modelo de desarrollo \"Trunk-Based Development\", \u00bfcu\u00e1l es la rama que siempre deber\u00eda estar lista para desplegar?",
+        "9": "\u00bfQu\u00e9 ocurre durante un merge \"fast-forward\" en Git?"
+    },
+    "Answer 1": {
+        "0": "git clone",
+        "1": "El \u00e1rea donde se alojan los repositorios remotos.",
+        "2": "git config",
+        "3": "git status",
+        "4": "git checkout",
+        "5": "git revert",
+        "6": "git revert",
+        "7": "Una solicitud para descargar los cambios de un repositorio remoto.",
+        "8": "Feature branch",
+        "9": "Se crea un nuevo commit que une dos ramas."
+    },
+    "Answer 2": {
+        "0": "git init",
+        "1": "El \u00e1rea donde se preparan los cambios antes de confirmarlos al historial de versiones.",
+        "2": "git user",
+        "3": "git show",
+        "4": "git switch",
+        "5": "git reset --hard",
+        "6": "git undo",
+        "7": "Una petici\u00f3n para que el mantenedor haga pull de tus cambios a su rama local.",
+        "8": "Develop branch",
+        "9": "Se reescribe la historia para simular una \u00fanica l\u00ednea de desarrollo."
+    },
+    "Answer 3": {
+        "0": "git start",
+        "1": "El directorio donde se guardan los archivos no rastreados.",
+        "2": "git init user",
+        "3": "git log",
+        "4": "git swap",
+        "5": "git commit --undo",
+        "6": "git rollback",
+        "7": "Una solicitud para integrar cambios de una rama a otra en el repositorio remoto.",
+        "8": "Main branch",
+        "9": "Se generan conflictos que deben ser resueltos manualmente."
+    },
+    "Answer 4": {
+        "0": "git create",
+        "1": "La carpeta oculta .git.",
+        "2": "git set user",
+        "3": "git list",
+        "4": "git change",
+        "5": "git reset",
+        "6": "git back",
+        "7": "Una petici\u00f3n para clonar un repositorio de Github.",
+        "8": "Release branch",
+        "9": "Una rama se actualiza para apuntar al \u00faltimo commit de la otra rama sin necesidad de un commit de merge."
+    },
+    "Correct answer(s)": {
+        "0": "2",
+        "1": "2",
+        "2": "1",
+        "3": "3",
+        "4": "1",
+        "5": "4",
+        "6": "1",
+        "7": "3",
+        "8": "3",
+        "9": "4"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "Question": {
+        "0": "\u00bfQu\u00e9 comando se utiliza para crear un nuevo ambiente virtual con CONDA?",
+        "1": "\u00bfCon qu\u00e9 comando podemos activar un ambiente virtual espec\u00edfico en CONDA?",
+        "2": "\u00bfCu\u00e1l es el nombre del archivo que Poetry usa como archivo de configuraci\u00f3n maestro?",
+        "3": "\u00bfC\u00f3mo se agrega una nueva dependencia al proyecto usando Poetry?",
+        "4": "\u00bfQu\u00e9 archivo utiliza Poetry para asegurar que las dependencias del proyecto permanezcan consistentes en distintas instalaciones?",
+        "5": "En Poetry, si una dependencia que quieres instalar es incompatible con una versi\u00f3n previamente instalada, \u00bfqu\u00e9 sucede?",
+        "6": "\u00bfCu\u00e1l de las siguientes opciones NO es una caracter\u00edstica diferenciadora de CONDA respecto a otros gestores de paquetes como PIP?",
+        "7": "\u00bfC\u00f3mo actualizas una dependencia espec\u00edfica en un proyecto gestionado por Poetry?",
+        "8": "\u00bfQu\u00e9 comando se utiliza para publicar un paquete en PyPI usando Poetry?",
+        "9": "\u00bfQu\u00e9 hace el comando `conda env export > ENV.yml`?"
+    },
+    "Answer 1": {
+        "0": "conda install myenv",
+        "1": "conda start myenv",
+        "2": "package.toml",
+        "3": "poetry new fastapi",
+        "4": "dependencies.lock",
+        "5": "La dependencia se instala autom\u00e1ticamente en una versi\u00f3n alternativa compatible.",
+        "6": "Gestiona tambi\u00e9n paquetes de lenguajes que no son Python, como R o FORTRAN.",
+        "7": "poetry update requests",
+        "8": "poetry deploy --build",
+        "9": "Importa un ambiente a partir de un archivo YAML."
+    },
+    "Answer 2": {
+        "0": "conda new -n myenv",
+        "1": "conda activate myenv",
+        "2": "pyproject.toml",
+        "3": "poetry add fastapi",
+        "4": "poetry.lock",
+        "5": "Poetry denegar\u00e1 la instalaci\u00f3n para prevenir romper el ambiente.",
+        "6": "CONDA puede resolver dependencias de sistema adem\u00e1s de las de Python.",
+        "7": "poetry upgrade requests",
+        "8": "poetry upload --build",
+        "9": "Exporta el ambiente actual a un archivo YAML."
+    },
+    "Answer 3": {
+        "0": "conda create -n myenv",
+        "1": "conda init myenv",
+        "2": "poetry.json",
+        "3": "poetry install fastapi",
+        "4": "pyproject.lock",
+        "5": "Poetry desinstalar\u00e1 la dependencia conflictiva y proceder\u00e1 con la instalaci\u00f3n.",
+        "6": "Incluye su propia versi\u00f3n de Python en cada ambiente virtual.",
+        "7": "poetry install --upgrade requests",
+        "8": "poetry publish --build",
+        "9": "Crea un ambiente a partir de un archivo YAML existente."
+    },
+    "Answer 4": {
+        "0": "conda activate myenv",
+        "1": "conda build myenv",
+        "2": "poetry.lock",
+        "3": "poetry get fastapi",
+        "4": "poetry.json.lock",
+        "5": "Se crear\u00e1 un nuevo ambiente virtual para la instalaci\u00f3n.",
+        "6": "CONDA s\u00f3lo usa The Python Package Index (PyPI) como fuente de paquetes.",
+        "7": "poetry refresh requests",
+        "8": "poetry send --build",
+        "9": "Actualiza un ambiente a partir de un archivo YAML."
+    },
+    "Correct answer(s)": {
+        "0": "3",
+        "1": "2",
+        "2": "2",
+        "3": "2",
+        "4": "3",
+        "5": "2",
+        "6": "4",
+        "7": "1",
+        "8": "3",
+        "9": "2"
+    }
+}
