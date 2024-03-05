@@ -2,8 +2,8 @@
     "1_Control_de_versiones": {
         "name": "Control de versiones",
         "video_urls": [
-            "https://youtu.be/mQMgYx6W9aI", 
-            "https://www.youtube.com/watch?v=rxsVHfMsc24"
+            "https://www.youtube.com/embed/mQMgYx6W9aI",
+            "https://www.youtube.com/embed/rxsVHfMsc24"
         ],
         "long_description": {},
         "ipynbs": {
@@ -17,12 +17,15 @@
     "2_Entornos_virtuales": {
         "name": "Entornos virtuales",
         "video_urls": [
-            "https://www.youtube.com/watch?v=_tYE_N1drGw&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=4", 
-            "https://www.youtube.com/watch?v=Yj_sDsZs4R4&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=5"
+            "https://www.youtube.com/embed/_tYE_N1drGw?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m",
+            "https://www.youtube.com/embed/Yj_sDsZs4R4?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m"
         ],
         "long_description": {},
         "ipynbs": {
+            "consigna_sincronico": "https://colab.research.google.com/drive/1dRODQaqlnFg4e2i5FbHxkNBoPgbr0B3H",
             "ejercicios": "https://colab.research.google.com/drive/1yCupCx4hNIo-CV1n5nNUOqPbOqMCV-AB",
+            "solucion_ejercicios": "https://colab.research.google.com/drive/1QgwUCsbja0iZGqUMZW4DTFfU-V2GAfW8",
+            "solucion_sincronico": "https://colab.research.google.com/drive/1LFl-O19BlE2tDYuOz_OfOAcCD3N9SpzP",
             "clase_02_venv": "https://colab.research.google.com/drive/1SK1X74EJbFOIK-Ew5_N43IbSCkxyUl9b",
             "clase_02_poetry": "https://colab.research.google.com/drive/18CA2tCIPWO8BRjnDXGLLtyLdCdrJSfxh"
         },
@@ -31,10 +34,10 @@
     "3_Herramientas_del_proceso_de_desarrollo_I": {
         "name": "Herramientas del proceso de desarrollo I",
         "video_urls": [
-            "https://www.youtube.com/watch?v=QT7ZV2rz5NU&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=7", 
-            "https://www.youtube.com/watch?v=jDEsq9mndxM&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=8", 
-            "https://www.youtube.com/watch?v=ipxiESgGgz0&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=9",
-            "https://www.youtube.com/watch?v=Zu_E4pjSPJY&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m&index=6"
+            "https://www.youtube.com/embed/QT7ZV2rz5NU?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m",
+            "https://www.youtube.com/embed/jDEsq9mndxM?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m",
+            "https://www.youtube.com/embed/ipxiESgGgz0?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m",
+            "https://www.youtube.com/embed/Zu_E4pjSPJY?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m"
         ],
         "long_description": {},
         "ipynbs": {
@@ -44,16 +47,15 @@
             "clase_03_setuptools": "https://colab.research.google.com/drive/1OzxH1loYroM9Ni3EQnqBJ9D5y4wyAXSP",
             "clase_03_cookiecutter": "https://colab.research.google.com/drive/1_URUwDysj6r6_KHdts2OoIsexw1tQ_1c",
             "clase_03_pylint": "https://colab.research.google.com/drive/11gjjw-4q8XOin9vuvx5epCxjYB0VOapq",
-            "clase_03_documentation": "https://colab.research.google.com/drive/1ijaX3d8_Xkj4WkEKiwpK6d-S7Zwh04v4",
-            "clase_03_typing": "https://colab.research.google.com/drive/12Ko_XYrk4vA8HeMUau_s9K28f7tQNrSR"
+            "clase_03_documentation": "https://colab.research.google.com/drive/1ijaX3d8_Xkj4WkEKiwpK6d-S7Zwh04v4"
         },
         "materials": {}
     },
     "4_Herramientas_del_proceso_de_desarrollo_II": {
         "name": "Herramientas del proceso de desarrollo II",
         "video_urls": [
-            "https://youtu.be/ICFHgHbIHEQ",
-            "https://youtu.be/-_pk8ix87uQ"
+            "https://www.youtube.com/embed/ICFHgHbIHEQ",
+            "https://www.youtube.com/embed/-_pk8ix87uQ"
         ],
         "long_description": {},
         "ipynbs": {
@@ -64,13 +66,13 @@
     "5_Docker": {
         "name": "Docker",
         "video_urls": [
-            "https://youtu.be/uLtjdprD2jo",
-            "https://youtu.be/emKNsuj1ZpQ",
-            "https://youtu.be/yVIwPqTBgUw",
-            "https://youtu.be/YTjU1HfYd1g",
-            "https://youtu.be/rRu1C6OuzfI",
-            "https://youtu.be/N-IhU5Q3nW0",
-            "https://youtu.be/gqinaCzQ0Qc"
+            "https://www.youtube.com/embed/uLtjdprD2jo",
+            "https://www.youtube.com/embed/emKNsuj1ZpQ",
+            "https://www.youtube.com/embed/yVIwPqTBgUw",
+            "https://www.youtube.com/embed/YTjU1HfYd1g",
+            "https://www.youtube.com/embed/rRu1C6OuzfI",
+            "https://www.youtube.com/embed/N-IhU5Q3nW0",
+            "https://www.youtube.com/embed/gqinaCzQ0Qc"
         ],
         "long_description": {},
         "ipynbs": {
