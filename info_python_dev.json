@@ -5,7 +5,18 @@
             "https://www.youtube.com/embed/mQMgYx6W9aI",
             "https://www.youtube.com/embed/rxsVHfMsc24"
         ],
-        "long_description": {},
+        "long_description": {
+            "intro": "Explora c\u00f3mo utilizar Git y GitHub para la gesti\u00f3n efectiva de versiones y colaboraci\u00f3n en el desarrollo de software.",
+            "temas": [
+                "Fundamentos del control de versiones con GIT.",
+                "Configuraci\u00f3n inicial y operaciones b\u00e1sicas: add, commit, push, pull.",
+                "Branching y merging: manejo de ramas y resoluci\u00f3n de conflictos.",
+                "Colaboraci\u00f3n en GitHub: pull requests y forks.",
+                "Estrategias de desarrollo: GitFlow y Trunk-Based Development.",
+                "Autenticaci\u00f3n en Git: HTTPS y SSH."
+            ],
+            "outro": "Manejo de control de versiones y colaboraci\u00f3n en proyectos de software utilizando Git y GitHub."
+        },
         "ipynbs": {
             "git": "https://colab.research.google.com/drive/1XSavFoPB_P4gcSxDNXjGR1WKmJnDmgca",
             "git_ejercicios": "https://colab.research.google.com/drive/1kbIBYYzG17tpIZIepSXeUpYv5tTzYIhJ"
@@ -20,7 +31,20 @@
             "https://www.youtube.com/embed/_tYE_N1drGw?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m",
             "https://www.youtube.com/embed/Yj_sDsZs4R4?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m"
         ],
-        "long_description": {},
+        "long_description": {
+            "intro": "En esta clase de Entornos Virtuales, aprenderemos a manejar las herramientas y t\u00e9cnicas esenciales para gestionar y aislar dependencias en proyectos Python.",
+            "temas": [
+                "Introducci\u00f3n a la gesti\u00f3n de paquetes con CONDA y PIP: Diferencias y usos pr\u00e1cticos.",
+                "Creaci\u00f3n y manejo de ambientes virtuales con conda: Instalaci\u00f3n, activaci\u00f3n y desactivaci\u00f3n de ambientes.",
+                "Instalaci\u00f3n y actualizaci\u00f3n de paquetes dentro de un ambiente conda: Resolver conflictos de dependencias.",
+                "Exportaci\u00f3n y compartici\u00f3n de ambientes conda: Garantizar la replicabilidad.",
+                "Introducci\u00f3n a Poetry como herramienta de gesti\u00f3n de dependencias: Ventajas sobre herramientas tradicionales.",
+                "Creaci\u00f3n de proyectos y manejo avanzado de dependencias con Poetry: Inclusi\u00f3n y excluci\u00f3n segura de paquetes.",
+                "Utilizaci\u00f3n de scripts y comandos a trav\u00e9s de Poetry para ejecutar tareas en ambientes aislados.",
+                "Publicaci\u00f3n de paquetes con Poetry: Pasos para compartir tus proyectos con la comunidad."
+            ],
+            "outro": "Desarrollar habilidades para gestionar y aislar eficazmente las dependencias de tus proyectos Python utilizando herramientas como conda y Poetry."
+        },
         "ipynbs": {
             "consigna_sincronico": "https://colab.research.google.com/drive/1dRODQaqlnFg4e2i5FbHxkNBoPgbr0B3H",
             "ejercicios": "https://colab.research.google.com/drive/1yCupCx4hNIo-CV1n5nNUOqPbOqMCV-AB",
@@ -39,7 +63,17 @@
             "https://www.youtube.com/embed/ipxiESgGgz0?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m",
             "https://www.youtube.com/embed/Zu_E4pjSPJY?listType=playlist&list=PLISuMnTdVU-yHf-Lx6vdqTpYgs6UODg_m"
         ],
-        "long_description": {},
+        "long_description": {
+            "intro": "Esta secci\u00f3n se centra en las herramientas esenciales del proceso de desarrollo en Python, ofreciendo habilidades pr\u00e1cticas para empaquetar y distribuir c\u00f3digo, adem\u00e1s de abordar buenas pr\u00e1cticas y est\u00e1ndares.",
+            "temas": [
+                "Creaci\u00f3n y distribuci\u00f3n de paquetes con Setuptools y GitHub.",
+                "Automatizaci\u00f3n de la estructura de proyectos usando Cookiecutter.",
+                "Implementaci\u00f3n de est\u00e1ndares de codificaci\u00f3n con PEPs & PyLint.",
+                "Documentaci\u00f3n efectiva en proyectos Python.",
+                "Tipado est\u00e1tico en Python y uso de mypy para la verificaci\u00f3n de tipos."
+            ],
+            "outro": "Dominio de herramientas cr\u00edticas para el desarrollo eficiente y la colaboraci\u00f3n efectiva en proyectos de Python."
+        },
         "ipynbs": {
             "Ejercicios": "https://colab.research.google.com/drive/1ZkvaSEkl4EE-PG16bkS4A88FhYj-4i4q",
             "ejercicio_combinado": "https://colab.research.google.com/drive/1bXCEES9RNNLJxefP5KQ7pPyqmA5dXsLT",
@@ -58,7 +92,19 @@
             "https://www.youtube.com/embed/ICFHgHbIHEQ",
             "https://www.youtube.com/embed/-_pk8ix87uQ"
         ],
-        "long_description": {},
+        "long_description": {
+            "intro": "Exploramos la librer\u00eda `logging` de Python para implementar un sistema de registro de eventos, crucial en el desarrollo y debugging de software.",
+            "temas": [
+                "Introducci\u00f3n al logging y su diferenciaci\u00f3n con el comando print.",
+                "Niveles de severidad en los logs: DEBUG, INFO, WARNING, ERROR, CRITICAL.",
+                "Configuraci\u00f3n b\u00e1sica con `logging.basicConfig` y personalizaci\u00f3n de los registros.",
+                "Importancia de la inicializaci\u00f3n correcta de la configuraci\u00f3n de logging.",
+                "Ejemplo pr\u00e1ctico con manejo de excepciones y registro de errores.",
+                "Formateo de mensajes de log con datos variables.",
+                "Conclusi\u00f3n y referencias para usos avanzados de la librer\u00eda `logging`."
+            ],
+            "outro": "Adquiera la capacidad de implementar registros efectivos en sus aplicaciones Python para un desarrollo fiable y efectivo."
+        },
         "ipynbs": {
             "Introducci\u00f3n_a_Logging": "https://colab.research.google.com/drive/10m4PzVHsMHW7HP9dhNyG4Uhc_Xnz4PWm"
         },
@@ -75,7 +121,18 @@
             "https://www.youtube.com/embed/N-IhU5Q3nW0",
             "https://www.youtube.com/embed/gqinaCzQ0Qc"
         ],
-        "long_description": {},
+        "long_description": {
+            "intro": "Aprende a manejar contenedores con Docker, desde instalar im\u00e1genes hasta construir y compartir tus propias im\u00e1genes en este curso de Python.",
+            "temas": [
+                "Conceptos b\u00e1sicos de contenedores en Docker: im\u00e1genes, contenedores y almacenamiento.",
+                "Instalaci\u00f3n y operaciones fundamentales con el Docker Engine y CLI.",
+                "Construcci\u00f3n y administraci\u00f3n de im\u00e1genes de Docker propias.",
+                "Uso de Docker Compose para manejar aplicaciones con m\u00faltiples servicios.",
+                "Persistencia de datos en Docker a trav\u00e9s de vol\u00famenes, puntos de montaje y tmpfs mounts.",
+                "Ejemplos pr\u00e1cticos de despliegues con aplicaciones Python, Node.js y Java."
+            ],
+            "outro": "Desarrollar habilidades en contenerizaci\u00f3n, gesti\u00f3n de entornos de desarrollo y aplicaci\u00f3n de buenas pr\u00e1cticas con Docker."
+        },
         "ipynbs": {
             "ejercicios": "https://colab.research.google.com/drive/1fp8wHV60USAs5UqBEhUlHwDGU4aMYVY7",
             "docker-comandos": "https://colab.research.google.com/drive/1LyGfJBny-ktH3s5c7wrzqgRJbyVU_EeX",
@@ -87,7 +144,7 @@
     "material_extra": {
         "name": "Material extra",
         "video_urls": [],
-        "long_description": {},
+        "long_description": "",
         "ipynbs": {
             "pantallazo_calidad_de_codigo": "https://colab.research.google.com/drive/1q47V13xamX-0P4eK8_nXtpB3iwIBDVRr",
             "bash_cli_vscode": "https://colab.research.google.com/drive/1pZWCImkcRx0U2eNXEs6nKfGQPexdYk0i",
