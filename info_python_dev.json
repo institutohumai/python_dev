@@ -144,7 +144,7 @@
     "material_extra": {
         "name": "Material extra",
         "video_urls": [],
-        "long_description": "",
+        "long_description": {},
         "ipynbs": {
             "pantallazo_calidad_de_codigo": "https://colab.research.google.com/drive/1q47V13xamX-0P4eK8_nXtpB3iwIBDVRr",
             "bash_cli_vscode": "https://colab.research.google.com/drive/1pZWCImkcRx0U2eNXEs6nKfGQPexdYk0i",
